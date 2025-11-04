@@ -28,7 +28,7 @@ export default function ModelGalleryDynamic() {
   const current = models[index];
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 w-full">
       <Viewer modelUrl={current.url} />
       <div className="flex items-center justify-between w-full max-w-md mx-auto">
         <button
